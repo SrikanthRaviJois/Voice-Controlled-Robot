@@ -1,0 +1,28 @@
+# Configuration File for ESP32 Voice Controlled Robot
+
+# Azure Speech-to-Text API Settings
+azure:
+  subscription_key: "YOUR_AZURE_SPEECH_API_KEY"
+  region: "YOUR_AZURE_SPEECH_REGION"
+  endpoint: "https://YOUR_AZURE_SPEECH_ENDPOINT"
+
+# ESP32 Settings
+esp32:
+  ip_address: "192.168.xxx.xxx"  # Enter the IP address of the ESP32 module
+  port: xx  # Port number for communication with ESP32
+
+# Motor Control Pins
+motor_pins:
+  left_motor_pins:
+    pin1: 27
+    pin2: 26
+    enable_pin: 14
+  right_motor_pins:
+    pin1: 18
+    pin2: 19
+    enable_pin: 21
+
+# WiFi Settings
+wifi:
+  ssid: "YOUR_SSID" # Enter SSID of your WiFi network
+  password: "YOUR_PASSWORD" # Enter the password of your WiFi network
