@@ -1,4 +1,4 @@
-# *Voice Controlled Robot Using ESP32 and Azure Speech to Text API*
+# Voice Controlled Robot Using ESP32 and Azure Speech to Text API
 ## Overview
 This project demonstrates how to create a voice-controlled robot using an ESP32 microcontroller and Azure Speech to Text API. The ESP32 receives voice commands via Bluetooth or Wi-Fi, converts the spoken words to text using Azure Speech services, and controls the robot based on the recognized commands.
 
